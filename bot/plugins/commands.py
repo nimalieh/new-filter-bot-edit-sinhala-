@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = මෙන්න ඔයා ඉල්ලපු  මෝවි එක 👇,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'JOIN OUR Ⓜ️OVIE GROUP', url="https://t.me/CrazyBotsz"
                                 )
                         ]
                     ]
