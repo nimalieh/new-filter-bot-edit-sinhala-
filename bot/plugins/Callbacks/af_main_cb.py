@@ -139,7 +139,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=මෙන්න ඔයා ඉල්ලපු {file_name} ලින්ක්ස් 👇:</i> <code>{query}</code>"
+    text=මෙන්න ඔයා ඉල්ලපු  ලින්ක්ස් 👇:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
